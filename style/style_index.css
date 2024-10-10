@@ -48,7 +48,7 @@ header {
     align-items: center;
     width: 1162px; 
     margin: 0 auto;
-    height: 100px; 
+    height: 80px; 
 }
 .name_product h1 {
     justify-content: start;
@@ -81,7 +81,7 @@ main {
     color: black;
     padding: 20px;
     width: 100%;
-    background-image: linear-gradient(#33AF93 60%, #71B0A3);
+    background-image: linear-gradient(#298d76 80%, #71B0A3);
 }
 .container_main {
     display: flex;
@@ -99,9 +99,13 @@ main {
     align-items: center;
     width: 100%;
     margin-bottom: 50px;
+    padding: 50px;
 }
 .imagem_cel {
     display: none;
+}
+h2 {
+    margin-top: 50px;
 }
 .descrição {
     display: flex;
@@ -113,18 +117,20 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 100px;
+    margin-top:20px;
 }
 .p_name {
-    text-align: justify;
     hyphens: auto;
     font-size: 1.3em;
+}
+h3 {
+    margin-top: 40px;
 }
 .p_name p {
     margin-top: 25px;
 }
 .button_two button{
-    padding: 25px 85px;
+    padding: 25px 45px;
     background-image: linear-gradient(#FFF84F 50%, #fdcf03bb 50%);
     font-weight: 500;
     color: #211D50;
