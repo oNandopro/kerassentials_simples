@@ -99,13 +99,10 @@ main {
     align-items: center;
     width: 100%;
     margin-bottom: 50px;
-    padding: 50px;
+    padding: 30px;
 }
 .imagem_cel {
     display: none;
-}
-h2 {
-    margin-top: 50px;
 }
 .descrição {
     display: flex;
@@ -260,7 +257,6 @@ footer h4 a {
         flex-direction: column;
         padding: 20px;
         margin-bottom: 0px;
-        font-size: 1.1em;
     }
     .imagem_cel {
         display: flex;
@@ -286,14 +282,18 @@ footer h4 a {
     .frase {
         margin-top: 10px;
     }
+    h3 {
+        font-size: 20px;
+    }
     .p_name p {
         margin-top: 15px;
         font-size: 0.8em;
     }
     .button_two button {
-        padding: 25px 35px;
+        padding: 25px 55px;
         margin-top: 30px;
         margin-bottom: 30px;
+        font-size: 1.5em;
     }
     /* SECTION TWO */
     .img_sec_two {
@@ -306,9 +306,6 @@ footer h4 a {
         text-align: center;
     }
     /* SECTION STARS */
-    .sec_stars {
-        margin-top: 50px;
-    }
     .stars {
         flex-direction: column;
         font-size: .9em;
@@ -354,7 +351,6 @@ footer h4 a {
         display: flex;
         flex-direction: column;
         padding: 20px;
-        font-size: 1.2em;
     }
     .imagem_cel {
         display: flex;
@@ -382,18 +378,14 @@ footer h4 a {
     }
     .p_name p {
         margin-top: 15px;
-        font-size: 0.8em;
     }
     .button_two button {
-        padding: 25px 35px;
+        padding: 25px 55px;
         margin-top: 30px;
         margin-bottom: 30px;
+        font-size: 1.5em;
     }
     /* SECTION TWO */
-    .img_sec_two {
-        width: 80%;
-        height: auto;
-    }
     .p_certifications {
         margin-top: 20px;
         margin-bottom: 10;
@@ -417,7 +409,7 @@ footer h4 a {
     }
     /* SECTION FOOTER */
     .container_footer {
-        font-size: 0.8em;
+        font-size: 0.6em;
         height: auto;
         text-align: center;
     }
@@ -426,7 +418,7 @@ footer h4 a {
         letter-spacing: 0px;
     }
     h4 {
-        font-size: 1.2em;
+        font-size: 1em;
         padding: 5px;
     }
 }
@@ -475,10 +467,6 @@ footer h4 a {
         font-size: 1.8em; 
     }
     /* SECTION TWO */
-    .img_sec_two {
-        width: 60%;
-        height: auto;
-    }
     /* SECTION STARS */
     .sec_stars {
         margin-top: 50px;
